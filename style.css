@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(245, 245, 235);
+
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#left {
+    margin: 10%;
+    margin-top: 30%;
+}
+
+h1 {
+    text-align: left;
+    font-size: 5rem;
+    line-height: 70px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+}
+h3{
+    margin-top: 50px;
+    text-align: left;
+    text-decoration: underline;
+    font-size:2rem ;
+    font-family: "Noto Sans", sans-serif;
+}
+h3:hover{
+    color: rgb(24, 160, 24);
+}
+p {
+    margin-top: 25px;
+    text-align: left;
+    font-size: 2rem;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* #right {
+   
+} */
+
+.image {
+    position: relative;
+    margin: 10%;
+}
+
+.one {
+    position: absolute;
+    bottom: 40vh;
+    left: 10vw;
+}
+
+.two {
+    position: absolute;
+    bottom: 30vh;
+    left: 10vw;
+}
+
+.three {
+    position: absolute;
+    bottom: 20vh;
+    left: 10vw;
+}
+
+.dancer {
+    position: absolute;
+    bottom: 50vh;
+    left: 18vw;
+}
+
+.baby {
+    height: 50%;
+    width: 50%;
+}
+
+/* .four{
+    position: absolute;
+    bottom: 20vh;
+    left: 10vw;
+} */
+/* .image {
+    margin: 10%;
+    display: grid;
+    position:absolute;
+    grid-template-rows: 50% 50%;
+} */
+
+.wp {
+    position: relative;
+    width: 25rem;
+}
+
+/* .wp-bottom {
+    height: 50%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+} */
